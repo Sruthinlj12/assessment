@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple; /* Change navbar background color to purple */
+    padding: 1rem;
+    color: white;
+}
+
+.navbar-left h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right a {
+    color: white; /* Ensure icons are always white */
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 1rem; /* Add margin to the left of each icon */
+}
+
+.navbar-right a:first-child {
+    margin-right: auto; /* Push the first icon (home) to the far right */
+}
